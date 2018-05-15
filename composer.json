@@ -1,0 +1,15 @@
+{
+    "name": "mou/leer-excel",
+    "description": "leer archivos en excel",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Michael Ordaz",
+            "email": "ordazmartinezmichael@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
