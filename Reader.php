@@ -1,6 +1,12 @@
 <?php 
 require 'vendor/autoload.php';
-	
+
+use \Mou\Upload as Upload;
+
+
+Upload::hola();
+
+
 	$mysqli = new mysqli("localhost", "root", "", "document");
 	if ($mysqli->connect_errno) {
 	    echo "Falló la conexión a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
@@ -31,7 +37,6 @@ $highestColumn = $worksheet->getHighestColumn(); // e.g 'F'
 $highestColumnIndex = \PhpOffice\PhpSpreadsheet\Cell\Coordinate::columnIndexFromString($highestColumn); // e.g. 5
 
 $query = "";
-
 echo '<table>';
 for ($row = 2; $row <= $highestRow; $row++) {
 

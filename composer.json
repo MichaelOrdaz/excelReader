@@ -11,5 +11,11 @@
             "email": "ordazmartinezmichael@gmail.com"
         }
     ],
-    "minimum-stability": "beta"
+    "minimum-stability": "beta",
+    "autoload":{
+        "psr-4": {
+            "Mou\\": "src/",
+            "Conection\\": "src/"
+        }
+    }
 }

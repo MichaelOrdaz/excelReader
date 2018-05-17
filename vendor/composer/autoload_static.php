@@ -12,6 +12,14 @@ class ComposerStaticInitd7023bb7a0e37abe43c4142e5d088585
             'Psr\\SimpleCache\\' => 16,
             'PhpOffice\\PhpSpreadsheet\\' => 25,
         ),
+        'M' => 
+        array (
+            'Mou\\' => 4,
+        ),
+        'C' => 
+        array (
+            'Conection\\' => 10,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -22,6 +30,14 @@ class ComposerStaticInitd7023bb7a0e37abe43c4142e5d088585
         'PhpOffice\\PhpSpreadsheet\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet',
+        ),
+        'Mou\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Conection\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
